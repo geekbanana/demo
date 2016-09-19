@@ -1,0 +1,70 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="page_margin_horizontal">16dp</dimen>
+    <dimen name="page_margin_vertical">16dp</dimen>
+    <dimen name="view_margin_padding">8dp</dimen>
+    <dimen name="view_margin_padding_half">4dp</dimen>
+
+
+    <!--3.1版本字体  v3TextSize -->
+    <dimen name="v3ts_emphasize">18sp</dimen><!--强调-->
+    <dimen name="v3ts_important">16sp</dimen><!--重要-->
+    <dimen name="v3ts_paragraph">14sp</dimen><!--段落-->
+    <dimen name="v3ts_assist">12sp</dimen><!--辅助-->
+
+    <!-- 3.1版本尺寸 -->
+    <dimen name="v3_split_strap_height">12dp</dimen><!--分割条带的高度-->
+
+    <dimen name="octal1">8dp</dimen>
+    <dimen name="octal2">16dp</dimen>
+    <dimen name="octal3">24dp</dimen>
+    <dimen name="octal4">32dp</dimen>
+    <dimen name="octal5">40dp</dimen>
+    <dimen name="octal6">48dp</dimen>
+    <dimen name="octal7">56dp</dimen>
+    <dimen name="octal8">64dp</dimen>
+    <dimen name="octal9">72dp</dimen>
+    <dimen name="octal10">80dp</dimen>
+    <dimen name="octal11">88dp</dimen>
+    <dimen name="octal11_6">82dp</dimen>
+    <dimen name="octal12">96dp</dimen>
+    <dimen name="octal13">104dp</dimen>
+    <dimen name="octal14">112dp</dimen>
+    <dimen name="octal15">120dp</dimen>
+    <dimen name="octal16">128dp</dimen>
+    <dimen name="octal17">136dp</dimen>
+    <dimen name="octal18">144dp</dimen>
+    <dimen name="octal19">152dp</dimen>
+    <dimen name="octal20">160dp</dimen>
+    <dimen name="octal27">216dp</dimen>
+    <dimen name="octal30">240dp</dimen>
+
+    <!--
+        ocatl1_6: 8*1-6=2
+        octal1_4: 8*1-4=4
+        octal1_2: 8*1-2=6
+
+        octal2_6: 8*2-6=10
+        octal2_4: 8*2-4=12
+        octal2_2: 8*2-2=14
+    -->
+    <dimen name="octal1_6">2dp</dimen>
+    <dimen name="octal1_4">4dp</dimen>
+    <dimen name="octal1_2">6dp</dimen>
+    <dimen name="octal2_6">10dp</dimen>
+    <dimen name="octal2_4">12dp</dimen>
+    <dimen name="octal2_2">14dp</dimen>
+    <dimen name="octal3_6">18dp</dimen>
+    <dimen name="octal3_4">20dp</dimen>
+    <dimen name="octal3_2">22dp</dimen>
+    <dimen name="octal4_6">26dp</dimen>
+    <dimen name="octal4_4">28dp</dimen>
+    <dimen name="octal4_2">30dp</dimen>
+    <dimen name="octal5_6">34dp</dimen>
+    <dimen name="octal5_4">36dp</dimen>
+    <dimen name="octal5_2">38dp</dimen>
+    <dimen name="octal7_6">50dp</dimen>
+</resources>

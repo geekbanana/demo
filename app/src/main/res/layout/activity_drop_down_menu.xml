@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cavalry.demo.dropdownmenu.DropDownMenuActivity">
+
+    <com.cavalry.demo.dropdownmenu.DropDownMenu
+        android:id="@+id/drop_down_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/drop_down_menu_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/view_margin_padding"
+            android:paddingBottom="@dimen/view_margin_padding"
+            android:text="TITTLE"
+            android:gravity="center"
+            android:background="@android:color/darker_gray"
+            />
+
+
+            <android.support.v7.widget.RecyclerView
+
+                android:id="@+id/drop_down_menu_filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00ff00"
+                />
+
+
+        <FrameLayout
+            android:id="@+id/drop_down_menu_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="内容界面"
+                />
+        </FrameLayout>
+
+    </com.cavalry.demo.dropdownmenu.DropDownMenu>
+    
+
+
+</RelativeLayout>

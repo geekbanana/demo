@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0dddb8</item>
+        <item name="colorPrimaryDark">#04b2d1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 3.1版本字体样式 -->
+    <style name="v3tv_emphasize">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/v3ts_emphasize</item>
+        <item name="android:textColor">@color/v3_black_important</item>
+    </style>
+
+    <style name="v3tv_important">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/v3ts_important</item>
+        <item name="android:textColor">@color/v3_black_important</item>
+    </style>
+
+    <style name="v3tv_paragraph">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/v3ts_paragraph</item>
+        <item name="android:textColor">@color/v3_black_paragraph</item>
+    </style>
+
+    <style name="v3tv_assist">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/v3ts_assist</item>
+        <item name="android:textColor">@color/v3_black_assist</item>
+    </style>
+
+
+    <style name="v3tv_emphasize_padding_tb"  parent="v3tv_emphasize">
+        <item name="android:paddingTop">@dimen/octal1</item>
+        <item name="android:paddingBottom">@dimen/octal1</item>
+    </style>
+
+    <style name="v3tv_important_padding_tb" parent="v3tv_important">
+        <item name="android:paddingTop">@dimen/octal1</item>
+        <item name="android:paddingBottom">@dimen/octal1</item>
+    </style>
+
+    <style name="v3tv_paragraph_padding_tb"  parent="v3tv_paragraph">
+        <item name="android:paddingTop">@dimen/octal1</item>
+        <item name="android:paddingBottom">@dimen/octal1</item>
+    </style>
+
+    <style name="v3tv_assist_padding_tb" parent="v3tv_assist">
+        <item name="android:paddingTop">@dimen/octal1</item>
+        <item name="android:paddingBottom">@dimen/octal1</item>
+    </style>
+
+    <style name="v3tv_emphasize_padding_tblr"  parent="v3tv_emphasize_padding_tb">
+        <item name="android:paddingLeft">@dimen/octal2</item>
+        <item name="android:paddingRight">@dimen/octal2</item>
+    </style>
+
+    <style name="v3tv_important_padding_tblr" parent="v3tv_important_padding_tb">
+        <item name="android:paddingLeft">@dimen/octal2</item>
+        <item name="android:paddingRight">@dimen/octal2</item>
+    </style>
+
+    <style name="v3tv_paragraph_padding_tblr"  parent="v3tv_paragraph_padding_tb">
+        <item name="android:paddingLeft">@dimen/octal2</item>
+        <item name="android:paddingRight">@dimen/octal2</item>
+    </style>
+
+    <style name="v3tv_assist_padding_tblr" parent="v3tv_assist_padding_tb">
+        <item name="android:paddingLeft">@dimen/octal2</item>
+        <item name="android:paddingRight">@dimen/octal2</item>
+    </style>
+
+</resources>

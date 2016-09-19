@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/tv_symptom"
+        style="@style/v3tv_important"
+        android:layout_marginLeft="@dimen/octal2"
+        android:layout_marginRight="@dimen/octal2"
+        android:drawablePadding="@dimen/octal1"
+        android:paddingBottom="@dimen/octal1"
+        android:paddingTop="@dimen/octal1"
+        tools:text="伴随症状:" />
+
+
+
+
+    <TextView
+        android:id="@+id/tv_fu_yao"
+        style="@style/v3tv_paragraph"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/octal2"
+        android:layout_marginRight="@dimen/octal2"
+        android:paddingBottom="@dimen/octal1"
+        android:paddingTop="@dimen/octal1"
+        tools:text="辅药:" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/octal1"
+        >
+
+        <TableRow
+            android:paddingLeft="@dimen/octal2"
+            android:paddingRight="@dimen/octal2"
+            android:paddingTop="@dimen/octal1"
+            >
+            <TextView
+                style="@style/v3tv_paragraph"
+                android:text="本期主推:"
+                />
+
+            <TextView
+                android:id="@+id/tv_main_push"
+                style="@style/v3tv_paragraph"
+                android:layout_marginLeft="@dimen/octal1"
+                tools:text="@string/mmm"
+                />
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="@dimen/octal2"
+            android:paddingRight="@dimen/octal2"
+            android:paddingTop="@dimen/octal1"
+            >
+            <TextView
+                style="@style/v3tv_paragraph"
+                android:text="组合理由:"
+                />
+
+            <TextView
+                android:id="@+id/tv_reason"
+                style="@style/v3tv_paragraph"
+                android:layout_marginLeft="@dimen/octal1"
+                tools:text="@string/mmm"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="@dimen/octal2"
+            android:paddingRight="@dimen/octal2"
+            android:paddingTop="@dimen/octal1"
+            >
+            <TextView
+                style="@style/v3tv_paragraph"
+                android:text="提  供  方:"
+                />
+
+            <TextView
+                android:id="@+id/tv_provider"
+                style="@style/v3tv_paragraph"
+                android:layout_marginLeft="@dimen/octal1"
+                tools:text="@string/mmm"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

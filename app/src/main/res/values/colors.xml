@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--3.1版本颜色规范-->
+    <color name="v3_blue">#648BF8</color>
+    <color name="v3_black_important">#333333</color> <!--重要 -->
+    <color name="v3_black_paragraph">#666666</color><!--段落-->
+    <color name="v3_black_assist">#999999</color><!--辅助-->
+    <color name="v3_black_hint">#CCCCCC</color><!-- 可能是用于EditText的hint -->
+    <color name="v3_bg_white">#FFFFFF</color><!--白色背景-->
+    <color name="v3_bg_black">#F8F8F8</color><!--灰色背景/灰色分割条背景-->
+    <color name="v3_split_line">#EAEAEA</color><!--灰色分割线-->
+</resources>
