@@ -13,17 +13,21 @@ import android.view.ViewGroup;
 
 import com.cavalry.demo.R;
 import com.cavalry.demo.bitmap.BitmapActivity;
+import com.cavalry.demo.date.DatePickerActivity;
 import com.cavalry.demo.dropdownmenu.DropDownMenuActivity;
 import com.cavalry.demo.entity.MainEntity;
+import com.cavalry.demo.exception.ExceptionActivity;
 import com.cavalry.demo.layout.ViewStubActivity;
 import com.cavalry.demo.md.CoordinateLayoutActivity;
 import com.cavalry.demo.memoryleak.LeakDemoActivity;
+import com.cavalry.demo.rx.RxJavaActivity;
 import com.cavalry.demo.sdview.cliprect.ClipRectActivity;
 import com.cavalry.demo.sdview.relativemedicine.RelativeMedicineActivity;
 import com.cavalry.demo.section.BaseSection;
 import com.cavalry.demo.string.StringActivity;
 import com.cavalry.demo.touchevent.TouchActivity;
 import com.cavalry.demo.ui.adapter.MainRecyclerViewAdapter;
+import com.cavalry.demo.view.refresh.RefreshViewActivity;
 import com.cavalry.demo.window.WindowActivity;
 
 import java.util.ArrayList;
@@ -46,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     我们也可以通过StrictMode API在代码层面做细化的跟踪，可以设置StrictMode监听那些潜在问题，
     出现问题时如何提醒开发者，可以对屏幕闪红色，也可以输出错误日志。下面是官方的代码示例：
  */
-        if(true){
+        if(false){
             StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
                     .detectDiskReads()
                     .detectDiskWrites()
@@ -78,11 +82,20 @@ public class MainActivity extends AppCompatActivity {
         mData.add(new BaseSection(true,"布局"));
         mData.add(new BaseSection<MainEntity>(new MainEntity("ViewStub", ViewStubActivity.class)));
 
+        mData.add(new BaseSection(true,"Date"));
+        mData.add(new BaseSection<MainEntity>(new MainEntity("DatePicker", DatePickerActivity.class)));
+
+        mData.add(new BaseSection(true,"异常"));
+        mData.add(new BaseSection<MainEntity>(new MainEntity("Exception", ExceptionActivity.class)));
+
         mData.add(new BaseSection(true,"MaterialDesign"));
         mData.add(new BaseSection<MainEntity>(new MainEntity("CoordinateLayout", CoordinateLayoutActivity.class)));
 
         mData.add(new BaseSection(true,"MemoryLeak"));
         mData.add(new BaseSection<MainEntity>(new MainEntity("MemoryLeak", LeakDemoActivity.class)));
+
+        mData.add(new BaseSection(true,"Rx"));
+        mData.add(new BaseSection<MainEntity>(new MainEntity("RxJava", RxJavaActivity.class)));
 
         mData.add(new BaseSection(true,"String"));
         mData.add(new BaseSection<MainEntity>(new MainEntity("String", StringActivity.class)));
@@ -97,6 +110,9 @@ public class MainActivity extends AppCompatActivity {
         mData.add(new BaseSection<MainEntity>(new MainEntity("RelativeMedicineView", RelativeMedicineActivity.class)));
         mData.add(new BaseSection<MainEntity>(new MainEntity("clipRect", ClipRectActivity.class)));
         mData.add(new BaseSection<MainEntity>(new MainEntity("DropDownMenu", DropDownMenuActivity.class)));
+        mData.add(new BaseSection<MainEntity>(new MainEntity("RefreshView", RefreshViewActivity.class)));
+
+
     }
 
     private void initView() {

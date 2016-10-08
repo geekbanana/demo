@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cavalry.demo">
 
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
         android:name=".DemoApplication"
@@ -32,7 +32,11 @@
         <activity android:name=".string.StringActivity" />
         <activity android:name=".pool.ObjectPoolActivity" />
         <activity android:name=".md.CoordinateLayoutActivity" />
-        <activity android:name=".window.WindowActivity"></activity>
+        <activity android:name=".window.WindowActivity" />
+        <activity android:name=".rx.RxJavaActivity" />
+        <activity android:name=".exception.ExceptionActivity" />
+        <activity android:name=".date.DatePickerActivity" />
+        <activity android:name=".view.refresh.RefreshViewActivity"></activity>
     </application>
 
 </manifest>
